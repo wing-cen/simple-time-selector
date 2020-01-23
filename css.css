@@ -1,0 +1,51 @@
+#timerContainer {
+    background: #000;
+    height: 36px;
+    border: 1px solid #555962;
+}
+
+.timer-item {
+    width: 31%;
+    height: 36px;
+    float: left;
+    text-align: center;
+    position: relative;
+    border: none;
+    padding: 0;
+    margin-right: 0.13em;
+}
+
+.timer-item:first-child {
+    width: 31%;
+    margin-right: 0.2em;
+}
+
+.timer-item:last-child {
+    width: 33%;
+    float: right;
+    margin-right: 0;
+} 
+
+.t-input {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background: none;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    padding: 0;
+}
+
+.t-input[name="active"] {
+    color: #01B9D1;
+}
+
+.t-branch:after {
+    content: ":";
+    position: absolute;
+    right: -2px;
+    color: #FFF;
+    width: 2px;
+    top: 8px;
+}
